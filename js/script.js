@@ -18,16 +18,7 @@ $('.btn_nav').click(function(){
 	}
 });
 
-//$(document).ready(function(){
-//	$('a:enabled').on('click', function(){
-//		console.log("aaaaaaaaa");
-//		// アンカーの値取得
-//		var href = $(this).attr("#>.appear_wrap");
-//		// 遷移位置取得
-//		var target = $(href == "#").offset().top;
-//		$(".appear_wrap").addClass("fade_in");
-//	 });
-//});
+
 
 
 //スクロールするとフェードイン
@@ -43,6 +34,35 @@ $(function(){
     });
   });
 });
+
+//$(function() {
+//    $(window).on('scroll', function() {
+//        scrollDirection();
+//    });
+//    $('body').on('touchmove', function() {
+//        scrollDirection();
+//			console.log("aaaaaaaaa");
+//    });
+//});
+
+//$(document).ready(function(){
+//	$('.gnav a').click(function(event){
+//		var target = $(event.target);
+//	if(target.find(".appear_wrap")){
+//		$(this).addClass("fade_in");
+//	}
+//	console.log("aaaaaaaaa");
+//	});
+//});
+
+$(document).click(function(event){
+	
+	var target = $(event.target);
+	if(target.find(".appear_wrap")){
+		$(this).addClass("fade_in");
+	}
+});
+
 
 //window.onload = function() {
 //  scroll_effect();
@@ -63,11 +83,4 @@ $(function(){
 //  }
 //};
 
-
-
-
-
-
-
-//document.documentElement.scrollTop
 

@@ -71,6 +71,8 @@ a:hover{
 }
 
 .wrapper{
+	overflow-y:auto;
+	-webkit-overflow-scrolling: touch;
 	width: 100%;
 	overflow: hidden;
 }
@@ -1239,10 +1241,10 @@ a:hover{
 	 opacity: 0;
 	 -webkit-transform : translate(0, 50px);
 	transform : translate(0, 50px);
-    -webkit-transition: all 1s;
-    -moz-transition: all 1s;
-    -ms-transition:  all 1s;
-    transition:  all 1s;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    transition: all 0.8s;
 }
 
 .fade_in{

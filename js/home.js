@@ -6,9 +6,6 @@ $("#PageTop>a").on("click",function(){
 	$("html,body").animate({scrollTop:0},1000);
 });
 
-//replace
-$('.header_main').height(window.innerHeight + 'px');
-
 // 背景スライドアニメーション(Vegas2)
 var ww = window.innerWidth || document.documentElement.clientWidth || 0;
  if (ww > 640){
