@@ -56,7 +56,6 @@ $(function(){
 //});
 
 $(document).click(function(event){
-	
 	var target = $(event.target);
 	if(target.find(".appear_wrap")){
 		$(this).addClass("fade_in");

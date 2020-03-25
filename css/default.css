@@ -1239,8 +1239,8 @@ a:hover{
 .appear_wrap{
 /*	display: block;*/
 	 opacity: 0;
-	 -webkit-transform : translate(0, 50px);
-	transform : translate(0, 50px);
+	 -webkit-transform: translate3d(0, 50px, 0);
+	transform: translate3d(0, 50px, 0);
     -webkit-transition: all 0.8s;
     -moz-transition: all 0.8s;
     -ms-transition: all 0.8s;
@@ -1249,8 +1249,8 @@ a:hover{
 
 .fade_in{
 	opacity: 1;
-	-webkit-transform: translate(0, 0);
-	transform: translate(0, 0);
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
 }
 
 
