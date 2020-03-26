@@ -400,6 +400,7 @@ a:hover{
 	background-position:center center;
 	background-size: cover;
 	padding: 60px 0 0;
+	cursor: pointer;
 }
 
 .nav_list{
@@ -407,6 +408,7 @@ a:hover{
 	font-size: 2.2rem;
 	margin: 0 auto;
 	text-align: center;
+	cursor: pointer;
 }
 
 .nav_item{
@@ -1253,6 +1255,12 @@ a:hover{
 	transform: translate3d(0,0,0);
 }
 
+_::-webkit-full-page-media, _:future, :root .fade_in{
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
 
 
 
@@ -1332,6 +1340,7 @@ a:hover{
 	
 	.gnav{
 		position: static;
+		cursor: pointer;
 		background: transparent;
 		height: 60px;
 		display: flex;
@@ -1346,6 +1355,7 @@ a:hover{
 	}
 	
 	.nav_list{
+		cursor: pointer;
 		display: -webkit-flex;
 		display: -moz-flex;
 		display: -ms-flex;

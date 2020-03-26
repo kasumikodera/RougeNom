@@ -5,7 +5,7 @@
 $(document).ready(function(){
 if ($(window).width() < 640) {//ウインドウサイズが1024px以下ならば
 $('.btn_nav').click(function(){
-				$(".movile_inner").toggleClass("click")
+				$('.movile_inner').toggleClass('click')
 				if ($('.gnav').css('display') == 'none') {
 					$('.gnav').fadeIn('fast');
 				} else {
@@ -19,21 +19,44 @@ $('.btn_nav').click(function(){
 });
 
 
+$('.appear_wrap').on('inview', function() {
+$(this).addClass('fade_in');
+});
 
+//$(function(){
+//	
+///*	var thisOffset = $('.appear_wrap').offset().top;
+//	if($(window).height() > thisOffset){*/
+//		$('.appear_wrap').addClass('fade_in');
+///*	}
+//*/	/*alert(thisOffset);*/
+//});
+
+//$(document).on('touchstart', '.gnav a[href]', function(){
+//	var target = $(event.target);
+//	if(target.find('.appear_wrap')){
+//		$(this).addClass('fade_in');
+//		console.log("aaaaaaaaa");
+//		
+//	}
+//});
 
 //スクロールするとフェードイン
-$(function(){
-  $(window).scroll(function (){
-    $(".appear_wrap").each(function(){
-      var imgPos = $(this).offset().top;
-      var scroll = $(window).scrollTop();
-      var windowHeight = $(window).height();
-      if (scroll > imgPos - windowHeight + windowHeight/5){
-        $(this).addClass("fade_in");
-      }
-    });
-  });
-});
+//$(function(){
+//  $(window).scroll(function (){
+//    $('.appear_wrap').each(function(){
+//      var imgPos = $(this).offset().top;
+//      var scroll = $(window).scrollTop();
+//      var windowHeight = $(window).height();
+//      if (scroll > imgPos - windowHeight + windowHeight/5){
+//        $(this).addClass('fade_in');
+//		  console.log('bbbbbbbbbbbbb');
+//      }
+//    });
+//  });
+//});
+
+
 
 //$(function() {
 //    $(window).on('scroll', function() {
@@ -54,13 +77,6 @@ $(function(){
 //	console.log("aaaaaaaaa");
 //	});
 //});
-
-$(document).click(function(event){
-	var target = $(event.target);
-	if(target.find(".appear_wrap")){
-		$(this).addClass("fade_in");
-	}
-});
 
 
 //window.onload = function() {
