@@ -24,7 +24,7 @@ var srcBgArray = [{ src: './images/kv_01@2x.png' }, //スマホでスライド�
  timer: false,
  transition: 'blur', 
 animation: 'kenburns',
- transitionDuration: 3000
+ transitionDuration: 4000
    });
 
 //replace
