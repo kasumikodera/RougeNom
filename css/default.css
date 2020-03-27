@@ -1184,6 +1184,8 @@ a:hover{
 }
 
 .access .salon_info{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	display: -webkit-flex;
 	display: flex;
@@ -1196,18 +1198,23 @@ a:hover{
 	margin: 0 auto;
 	font-size: 1.4rem;
 	line-height: 1.5;
-	width: 78vw;
+	letter-spacing: -0.025em;
+	width: 276px;
 }
 
 .access .salon_info dd{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	width: 50%;
+	width: 55%;
 	margin-bottom: 32px;
 }
 
 .access .salon_info dt{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	width: 50%;
+	width: 45%;
 	margin-bottom: 32px;
 }
 
