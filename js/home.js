@@ -30,12 +30,3 @@ animation: 'kenburns',
 //replace
 $('.header_main').height(window.innerHeight + 'px');
 
-
-//$(document).ready(function(){
-//if ($(window).width() < 640) {//ウインドウサイズが1024px以下ならば
-//$('nav_item').click(function(){
-//			$(".movile_inner").removeClass("click");
-//			$('.gnav').fadeOut('fast');
-//			});
-//		}
-//});
