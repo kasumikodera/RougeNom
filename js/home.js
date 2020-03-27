@@ -28,5 +28,5 @@ animation: 'kenburns',
    });
 
 //replace
-$('.header_main').height(window.innerHeight + 'px');
+//$('.header_main').height(window.innerHeight + 'px');
 
