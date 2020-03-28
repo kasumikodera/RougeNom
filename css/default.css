@@ -266,7 +266,7 @@ a:hover{
 .scroll_bar{
 	/*描画位置※位置は適宜調整してください*/
 	position:absolute;
-	left:50%;
+	left: 50%;
 	bottom: 0;
 	/*全体の高さ*/
 	height:50px;
@@ -1374,10 +1374,10 @@ _::-webkit-full-page-media, _:future, :root .fade_in{
 	.scroll_bar{
 		/*描画位置※位置は適宜調整してください*/
 		position: absolute;
-		left:50%;
+		left: 50%;
 		bottom: 62px;
 		/*全体の高さ*/
-		height:50px;
+		height: 50px;
 		z-index: 20;
 	}
 	
