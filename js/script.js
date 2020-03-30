@@ -25,6 +25,11 @@ $('.appear_wrap').on('inview', function() {
 $(this).addClass('fade_in');
 });
 
+//アニメーション用
+$(function(){
+    var style = '<link rel="stylesheet" href="animation.css">';
+    $('head link:last').after(style);
+});
 
 
 
