@@ -1980,24 +1980,12 @@ _::-webkit-full-page-media, _:future, :root .fade_in{
 		width: 114px;
 		padding-top: 28px;
 	}
-	
-	
 /*fade_in*/
-	
 	.appear_wrap{
 		 -webkit-transition: all 1.5s;
 		-moz-transition: all 1.5s;
 		-ms-transition: all 1.5s;
 		transition: all 1.5s;
 	}
-	
-	
-	
+
 }
-
-
-
-
-
-
-
