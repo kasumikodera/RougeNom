@@ -2,8 +2,6 @@
 /* CSS Document */
 
 /*scrollber*/
-
-
 /*高さ・位置・透過が変化して線が上から下に動く*/
 @keyframes pathmove{
 	0%{
@@ -38,5 +36,3 @@
 		opacity: 0;
 	}
 }
-
-/*/scrollber*/
