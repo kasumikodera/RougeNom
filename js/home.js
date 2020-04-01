@@ -50,6 +50,3 @@ if ($(window).width() < 640) {//ウインドウサイズが1024px以下ならば
 	}
 });
 
-//replace
-//$('.header_main').height(window.innerHeight + 'px');
-
