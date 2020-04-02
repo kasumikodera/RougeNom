@@ -713,8 +713,8 @@ a:hover{
 }
 
 .hr_menu{
-	size: 1px;
-	background-color: #c4ab4f;
+	border-top: 0;
+	border-bottom: solid 1px #c4ab4f;
 	margin: 10px 0;
 }
 
@@ -912,8 +912,8 @@ a:hover{
 
 .hr_info{
 	width: 89.33%;
-	size: 1px;
-	background-color: #c4ab4f;
+	border-top: 0;
+	border-bottom: solid 1px #c4ab4f;
 	margin: 0 auto;
 }
 
