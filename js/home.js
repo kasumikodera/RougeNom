@@ -2,7 +2,7 @@
 
 //アニメーション用
 $(function(){
-    var style = '<link rel="stylesheet" href="animation.css">';
+    var style = '<link rel="stylesheet" href="./css/animation.css">';
     $('head link:last').after(style);
 });
 
@@ -30,7 +30,7 @@ var srcBgArray = [{ src: './images/kv_01@2x.png' }, //スマホでスライド�
  timer: false,
  transition: 'blur', 
 animation: 'kenburns',
- transitionDuration: 4000
+ transitionDuration: 3000
    });
 
 $(document).ready(function(){
@@ -40,7 +40,6 @@ if ($(window).width() < 640) {//ウインドウサイズが1024px以下ならば
 	// Then we set the value in the --vh custom property to the root of the document
 	document.documentElement.style.setProperty('--vh', `${vh}px`);
 
-	// We listen to the resize event
 	window.addEventListener('resize', () => {
 		// We execute the same script as before
 		let vh = window.innerHeight * 0.01;
