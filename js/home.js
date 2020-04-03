@@ -1,10 +1,6 @@
 // JavaScript Document
 
-//アニメーション用
-$(function(){
-    var style = '<link rel="stylesheet" href="./css/animation.css">';
-    $('head link:last').after(style);
-});
+
 
 //ページトップボタン
 
@@ -47,5 +43,11 @@ if ($(window).width() < 640) {//ウインドウサイズが1024px以下ならば
 	});
 	
 	}
+});
+
+//アニメーション用
+$(function(){
+    var style = '<link rel="stylesheet" href="./css/animation.css">';
+    $('head link:last').after(style);
 });
 
