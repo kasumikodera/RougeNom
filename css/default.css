@@ -285,6 +285,21 @@ a:hover{
 }
 
 
+/* 線の描写 */
+.scroll_bar::after{
+	content: "";
+	/*描画位置*/
+	position: absolute;
+	display: block;
+	top: 0;
+	/*線の形状*/
+	width: 1px;
+	height: 40px;
+	background: #eee;
+	opacity: 0;
+}
+
+
 .logo{
 	position: absolute;
 	top: 16px;
