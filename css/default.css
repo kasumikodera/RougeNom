@@ -6,6 +6,8 @@
 
 html{
 	font-size: 62.5%; /*16px×62.5%=10px*/
+	margin: 0;
+	padding: 0;
 }
 
 body{
@@ -71,10 +73,11 @@ a:hover{
 }
 
 .wrapper{
-	overflow-y:auto;
 	-webkit-overflow-scrolling: touch;
-	width: 100%;
+	width: 100vw;
 	overflow: hidden;
+	margin: 0;
+	padding: 0;
 }
 
 
@@ -556,7 +559,6 @@ a:hover{
 
 .information{
 	box-sizing: border-box;
-	width: 100vw;
 	background-color: #FAF5EB;
 	padding: 48px 0;
 }
