@@ -552,7 +552,42 @@ a:hover{
 	font-feature-settings: 'palt';
 }
 
+/*information*/
 
+.information{
+	box-sizing: border-box;
+	width: 100vw;
+	background-color: #FAF5EB;
+	padding: 48px 0;
+}
+
+.info_outline{
+	box-sizing: border-box;
+	width: 89.33vw;
+	margin: 0 auto;
+	border: 2px solid #B43034;
+	padding: 24px 40px 48px;
+}
+
+.info_outline p{
+	box-sizing: border-box;
+	color: #B43034;
+}
+
+.i_title{
+	margin: 0 auto;
+	width: 26vw;
+	font-size: 6.4vmin;
+	font-weight: 400;
+	padding-bottom: 24px;
+}
+
+.i_text{
+	margin: 0 auto;
+	text-align: center;
+	font-size: 4.266vmin;
+	line-height: 2;
+}
 
 /*about*/
 
@@ -1468,6 +1503,34 @@ _::-webkit-full-page-media, _:future, :root .fade_in{
 	.btn_head_reservation:hover span{
 		color: #fff;
 	}
+	
+	/*information*/
+
+.information{
+	background-color: #FAF5EB;
+	padding: 48px 0;
+}
+
+.info_outline{
+	width: 553px;
+	margin: 0 auto;
+	border: 2px solid #B43034;
+	padding: 24px 70px 48px;
+}
+
+.info_outline p{
+	color: #B43034;
+}
+
+.i_title{
+	width: 96px;
+	font-size: 2.4rem;
+}
+
+.i_text{
+	width: 432px;
+	font-size: 1.6rem;
+}
 	
 /*about*/
 	.about{
