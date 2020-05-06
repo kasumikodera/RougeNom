@@ -569,7 +569,7 @@ a:hover{
 	margin: 0 auto;
 	border: solid 1px #B43034;
 	border-radius: 4px;
-	padding: 24px 32px 48px;
+	padding: 24px 16px 48px;
 }
 
 .info_outline p{
@@ -1517,7 +1517,7 @@ _::-webkit-full-page-media, _:future, :root .fade_in{
 .info_outline{
 	width: 553px;
 	margin: 0 auto;
-	padding: 24px 70px 48px;
+	padding: 24px 50px 48px;
 }
 
 .info_outline p{
@@ -1530,7 +1530,7 @@ _::-webkit-full-page-media, _:future, :root .fade_in{
 }
 
 .i_text{
-	width: 432px;
+	width: 456px;
 	font-size: 1.6rem;
 }
 	
