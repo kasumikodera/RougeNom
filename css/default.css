@@ -579,17 +579,22 @@ a:hover{
 
 .i_title{
 	margin: 0 auto;
-	width: 26vw;
-	font-size: 6.4vmin;
+	width: 30vw;
+	font-size: 2.4rem;
 	font-weight: 400;
 	padding-bottom: 24px;
 }
 
 .i_text{
+	width: 80vw;
 	margin: 0 auto;
 	text-align: center;
-	font-size: 4.266vmin;
+	font-size: 1.6rem;
 	line-height: 2;
+}
+
+.i_text span{
+	font-size: 1.4rem;
 }
 
 /*about*/
@@ -628,6 +633,49 @@ a:hover{
 	margin-bottom: 92px;
 }
 
+/*aboutページPR*/
+
+.about_pr{
+	width: 89.333vw;
+	margin: 0 auto;
+	color: #B43034;
+	padding-bottom: 44px;
+}
+
+.about_pr1{
+	margin-bottom: 82px;
+}
+
+.about_pr2{
+	margin: 0 0 40px 0;
+}
+
+.about_pr_caption{
+	margin: 44px 0 0;
+	text-align: center;
+}
+
+.about_pr_caption span{
+	display: inline-block;
+	font-size: 1.8rem;
+	font-family: 'Noto Sans JP',san-serif;
+	font-weight: 400;
+	margin-bottom: 36px;
+	line-height: 1.5;
+}
+
+.about_pr_caption p{
+	display: inline-block;
+	font-size: 1.6rem;
+	font-weight: 300;
+	line-height: 1.5;
+}
+
+.pr_img{
+	width: 60vw;
+	height: auto;
+	margin: 0 auto;
+}
 
 .owner_heading{
 	display: block;
@@ -659,7 +707,7 @@ a:hover{
 	width: 86vw;
 	margin: 0 auto;
 	padding-bottom: 108px;
-	line-height: 2.4;
+	line-height: 2;
 }
 
 
@@ -1564,8 +1612,53 @@ _::-webkit-full-page-media, _:future, :root .fade_in{
 	.main-contents .about_text2{
 		margin-bottom: 116px;
 	}
-
 	
+	/*aboutページPR*/
+	
+	.about_pr{
+	width: 636px;
+	margin: 0 auto;
+	}
+	
+	.pr_img{
+		width: 300px;
+		height: auto;
+	}
+	
+	.about_pr_img{
+		padding-right: 20px;
+	}
+	
+	
+	.about_pr_caption{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin: 0;
+		padding-right: 20px;
+	}
+	
+	.about_pr_caption span{
+		display: block;
+	}
+	
+	.about_pr1,.about_pr2{
+		display: inline-flex;
+		width: 636px;
+		margin: 0 -20px 0 0;
+	}
+	
+	.about_pr1{
+		margin-bottom: 68px;
+	}
+	
+	.about_pr2{
+		flex-direction: row-reverse;
+		margin-bottom: 72px;
+	}
+	
+
 	.owner_profile{
 		box-sizing: border-box;
 		display: flex;
