@@ -226,7 +226,7 @@ a:hover{
 	transform: translateY(-50%);
 	margin: auto;
 	width: 80vw;
-	z-index: 9999;
+	z-index: 99;
 }
 
 .top_title{
